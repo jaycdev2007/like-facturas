@@ -1,7 +1,13 @@
+import { HeaderHome } from "../components/headerHome"
+import { MainHome } from "../components/mainHome"
+import { FooterHome } from "../components/footerHome"
+
 export default function Home() {
   return (
     <>
-      <h1>Ola mundo</h1>
+      <HeaderHome />
+      <MainHome />
+      <FooterHome />
     </>
   )
 }
