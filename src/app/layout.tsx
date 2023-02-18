@@ -7,10 +7,8 @@ export default function LoginLayout({
 }) {
   return (
     <html lang="pt">
-      <head>
-        <title>Faça já o login</title>
-      </head>
-      <body className="bg-black-700 text-white">{children}</body>
+      <head />
+       <body className="bg-black-700 text-white">{children}</body>
     </html>
   )
 }

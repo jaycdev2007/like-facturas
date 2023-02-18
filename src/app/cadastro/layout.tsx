@@ -5,9 +5,7 @@ export default function CadastroLayout({
 }) {
   return (
     <html lang="pt">
-      <head>
-      <title>Faça já o seu cadastro</title>
-      </head>
+      <head />
       <body className="bg-black-700 text-white">{children}</body>
     </html>
   )
